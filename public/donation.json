@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/SdR8qWp/Health.png",
+        "title": "Medical Supplies for Clinics",
+        "category": "Health",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Help save lives by providing essential medical supplies to clinics in underserved areas. Your contribution will support the purchase of items such as bandages, syringes, medications, and medical equipment. Your generous donation will make a significant impact on the health and well-being of those in need.",
+        "price": 50.00
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/LSTHG4P/Food.png",
+        "title": "Nutritious Meals for Children",
+        "category": "Food",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#fef9e7",
+        "text_button_bg_color": "#f39c12",
+        "description": "Give the gift of nourishment to children in need. Your support will fund programs that provide nutritious meals to underprivileged children. These meals not only satisfy hunger but also ensure that young minds are fueled for learning and growth. Together, we can make a positive difference in their lives.",
+        "price": 20.00
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/FzNn2Vw/Clothing.png",
+        "title": "Warm Clothing for the Homeless",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#27ae60",
+        "description": "Help bring warmth and comfort to those experiencing homelessness during the frigid winter months. Your donation will be used to collect and distribute warm clothing items, including coats, blankets, and gloves. By providing essential winter gear, we can offer a lifeline to those facing extreme cold and harsh conditions.",
+        "price": 30.00
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/C6TbCcY/Education.png",
+        "title": "Scholarships for Underprivileged Students",
+        "category": "Education",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#f5e3e3",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Empower the next generation by providing educational scholarships to underprivileged students. Your contribution will open doors to quality education, ensuring that talented young individuals have the opportunity to pursue their dreams and reach their full potential. Together, we can shape a brighter future.",
+        "price": 40.00
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/SdR8qWp/Health.png",
+        "title": "Mobile Clinics for Rural Health",
+        "category": "Health",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Support mobile health clinics that bring critical medical services to remote rural areas. Your donation will help ensure that people living in underserved regions have access to healthcare, from basic check-ups to life-saving treatments. Your support can bridge the gap in healthcare disparities and save lives.",
+        "price": 35.00
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/LSTHG4P/Food.png",
+        "title": "Emergency Food Relief",
+        "category": "Food",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#fef9e7",
+        "text_button_bg_color": "#f39c12",
+        "description": "Contribute to emergency food relief programs for families facing hunger crises.",
+        "price": 25.00
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/FzNn2Vw/Clothing.png",
+        "title": "Winter Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#27ae60",
+        "description": "Be a source of hope for families facing hunger crises by contributing to emergency food relief programs. Your donation will help provide essential food supplies to those in dire need, offering relief during challenging times. Together, we can ensure that no one goes to bed hungry.",
+        "price": 30.00
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/C6TbCcY/Education.png",
+        "title": "Educational Resources for Schools",
+        "category": "Education",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#f5e3e3",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Join the effort to collect and distribute warm clothing during the winter season. Your contribution will make a significant impact on the comfort and well-being of those who would otherwise face the cold without proper attire. Your kindness will help keep individuals warm and safe during the winter months.",
+        "price": 20.00
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/SdR8qWp/Health.png",
+        "title": "Health Awareness Campaigns",
+        "category": "Health",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Join the effort to support health awareness campaigns that educate communities about important health issues. Your donation will contribute to initiatives that promote well-being and prevent diseases. Together, we can raise awareness and improve public health.",
+        "price": 45.00
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/LSTHG4P/Food.png",
+        "title": "School Meals for Children",
+        "category": "Food",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#fef9e7",
+        "text_button_bg_color": "#f39c12",
+        "description": "Help ensure that children receive nutritious meals by funding school meal programs. Your support will play a vital role in providing balanced and healthy lunches to students. By nourishing young minds, we can create a foundation for success in education and life.",
+        "price": 15.00
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/FzNn2Vw/Clothing.png",
+        "title": "Clothing for Orphaned Children",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#27ae60",
+        "description": "Make a difference in the lives of orphaned children by providing them with clothing and essential items. Your donation will offer warmth, comfort, and dignity to those who have faced hardship. Together, we can bring smiles and hope to these young souls in need of care.",
+        "price": 30.00
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/C6TbCcY/Education.png",
+        "title": "STEM Education Scholarships",
+        "category": "Education",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#f5e3e3",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Support the future of science, technology, engineering, and mathematics (STEM) education by offering scholarships to students. Your contribution will enable talented individuals to pursue STEM fields, fostering innovation and progress. Together, we can shape a brighter future driven by knowledge and discovery.",
+        "price": 40.00
+    }
+]

@@ -1,0 +1,9 @@
+#mobile-menu a.active {
+    color: red;
+    text-decoration: underline;
+  }
+#desktop-menu a.active {
+    color: red;
+    text-decoration: red 2px underline;
+
+  }
