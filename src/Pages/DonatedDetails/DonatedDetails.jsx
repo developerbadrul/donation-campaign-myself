@@ -1,16 +1,28 @@
 /* eslint-disable react/prop-types */
 
 const DonatedDetails = ({ donated }) => {
+    const categoryBadgeStyle = {
+        backgroundColor: donated?.category_bg_color,
+    };
+
+    const cardBodyStyle = {
+        backgroundColor: donated?.card_bg_color,
+    };
+
+    const buttonStyle = {
+        backgroundColor: donated?.text_button_bg_color,
+    };
+
     return (
         <div className="card card-side bg-base-100 shadow-xl py-3">
             <figure><img src={donated.picture} alt="Movie" /></figure>
-            <div className="card-body">
+            <div className="card-body" style={cardBodyStyle}>
                 <h2 className="card-title">{donated.title}</h2>
-                <div className="badge badge-secondary">{donated.category}</div>
+                <div className="badge badge-secondary" style={categoryBadgeStyle}>{donated.category}</div>
                 <p>{donated.description.slice(0, 100)}</p>
                 <p>${donated.price}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary" onClick={() => document.getElementById('my_modal_5').showModal()}>View Details</button>
+                    <button style={buttonStyle} className="btn btn-primary" onClick={() => document.getElementById('my_modal_5').showModal()}>View Details</button>
 
                     
 

@@ -1,8 +1,15 @@
-# React + Vite
+# Donation Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enhance your donation platform with these key features:
 
-Currently, two official plugins are available:
+1. Donation Tracking and History
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create a user dashboard to view donation history, the total amount donated, and the impact of contributions. This feature motivates users and demonstrates the real-world difference they've made.
+2. Donations Chart
+
+Add a visually appealing chart to display donation statistics, including category distribution (e.g., Health, Food). Utilize libraries like Chart.js for easy implementation.
+3. Set Background Color
+
+Improve the platform's design by applying background colors to different sections, aligning with your platform's theme. You can use CSS styles or frameworks like Tailwind CSS for effortless implementation.
+
+## Live Link: https://65141003a7339b0515627fbd--enchanting-crostata-85745e.netlify.app/

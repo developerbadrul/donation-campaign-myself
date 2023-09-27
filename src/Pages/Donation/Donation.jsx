@@ -21,8 +21,6 @@ const Donation = () => {
         setNofound('No Donatation Add')
     }
 
-    console.log(moreData);
-
     return (
 
         noFound ? <div className="text-center font-bold text-xl">No Donation Added</div> : <div>
@@ -32,8 +30,8 @@ const Donation = () => {
             </div>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-5 w-11/12 mx-auto">
                 {
-                    moreData ? showDonations.map(x => <DonatedDetails key={x.id} donated={x}></DonatedDetails>)
-                    : showDonations.slice(0,4).map(x => <DonatedDetails key={x.id} donated={x}></DonatedDetails>)
+                    moreData ? showDonations?.map(x => <DonatedDetails key={x?.id} donated={x}></DonatedDetails>)
+                    : showDonations?.slice(0,4).map(x => <DonatedDetails key={x?.id} donated={x}></DonatedDetails>)
                 }
             </ul>
             {

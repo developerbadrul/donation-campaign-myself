@@ -1,45 +1,49 @@
 import { useEffect, useState } from "react";
 import SingleDonation from "../../components/SingleDonation/SingleDonation";
-// import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
     const [donations, setDonations] = useState([]);
-
-    // const receiveData = useLoaderData()
-
+    const [searchQuery, setSearchQuery] = useState("");
+    const [filteredDonations, setFilteredDonations] = useState([]);
 
     useEffect(() => {
         fetch('donation.json')
             .then(res => res.json())
-            .then(data => setDonations(data))
-    }, [])
+            .then(data => {
+                setDonations(data);
+                setFilteredDonations(data); // Initialize filteredDonations with all donations
+            });
+    }, []);
 
-    // useEffect(() => {
-    //     const loadData = async () => {
-    //         const res = await fetch('donation.json');
-    //         const data = await res.json();
-    //         setDonations(data.donation_items);
-    //     }
-    //     loadData()
-    // }, []);
+    const handleSearch = () => {
+        // Filter donations based on the searchQuery
+        const filtered = donations.filter(donation => {
+            return donation.category.toLowerCase().includes(searchQuery.toLowerCase());
+        });
+        setFilteredDonations(filtered);
+    };
 
-    // console.log(donations);
     return (
         <>
             <div className="w-full bg-[url('https://i.ibb.co/K6T11QX/banner.jpg')] h-72 bg-center bg-cover">
                 <h1 className="text-3xl text-center text-white font-bold py-5">I Grow By Helping People In Need</h1>
                 <div className="w-full flex justify-center items-center gap-4">
-
-                    <input type="text" placeholder="Search Here" className="input input-bordered w-full max-w-xs" />
-                    <button className="btn btn-error">Search</button>
+                    <input
+                        type="text"
+                        placeholder="Search by category"
+                        className="input input-bordered w-full max-w-xs"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
+                    <button className="btn btn-error" onClick={handleSearch}>
+                        Search
+                    </button>
                 </div>
             </div>
-            <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-11/12 mx-auto py-5">
-                {
-                    // console.log(donations)
-                    donations.map(item => <SingleDonation key={item.id} donation={item}></SingleDonation>)
-                }
-                
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-11/12 mx-auto py-5">
+                {filteredDonations.map(item => (
+                    <SingleDonation key={item.id} donation={item}></SingleDonation>
+                ))}
             </div>
         </>
     );
